@@ -2,9 +2,9 @@
   "name": "gestion_stock_back",
   "version": "1.0.0",
   "description": "gestion_stock_back",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon index"
+    "start": "nodemon app"
   },
   "repository": {
     "type": "git",
@@ -25,8 +25,16 @@
   },
   "homepage": "https://github.com/lucaramiandrasoa/gestion_stock_back#readme",
   "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
     "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
     "nodemon": "^2.0.20",
-    "sequelize": "^6.25.3"
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.25.3",
+    "sequelize-cli": "^6.5.2"
   }
 }
